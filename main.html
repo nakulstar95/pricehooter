@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>We compare your confusion</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/camera.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <!--[if lt IE 9]>
+    <html class="lt-ie9">
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a> 
+    </div>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+ 
+    <script src='js/device.min.js'></script> 
+    <style type="text/css">
+     @import "compass/css3";
+
+/***********************
+ * Essential Structure *
+ ***********************/
+.flexsearch--wrapper {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    overflow: hidden;
+    background: transparent;
+    margin: 0;
+    position: static;
+}
+    
+.flexsearch--form {
+    overflow: hidden;
+    position: relative;
+}
+    
+.flexsearch--input-wrapper {
+    padding: 0 66px 0 0; /* Right padding for submit button width */
+    overflow: hidden;
+}
+
+.flexsearch--input {
+  width: 100%;
+}
+
+/***********************
+ * Configurable Styles *
+ ***********************/
+.flexsearch {
+  padding: 0 450px 0 200px; /* Padding for other horizontal elements */
+}
+
+.flexsearch--input {
+  -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 60px;
+  padding: 0 46px 0 10px;
+    border-color: #888;
+  border-radius: 35px; /* (height/2) + border-width */
+  border-style: solid;
+    border-width: 5px;
+  margin-top: 15px;
+  color: #333;
+  font-family: 'Helvetica', sans-serif;
+    font-size: 26px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+    
+.flexsearch--submit {
+  position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 60px;
+    height: 60px;
+  padding: 0;
+  border: none;
+    margin-top: 20px; /* margin-top + border-width */
+  margin-right: 5px; /* border-width */
+    background: transparent;
+  color: #888;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.flexsearch--input:focus {
+  outline: none;
+  border-color: #333;
+}
+
+.flexsearch--input:focus.flexsearch--submit {
+    color: #333; 
+}
+
+.flexsearch--submit:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    color: #888;  
+}
+
+input:-moz-placeholder {
+  color: #888
+}
+
+
+/****************
+ * Pretify demo *
+ ****************/
+.h1 {
+  float: left;
+  margin: 25px;
+  color: #333;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 45px;
+  text-align: center;
+}
+    </style>
+</head>
+<body>
+<left>
+ 
+
+<div class="flexsearch">
+        <div class="flexsearch--wrapper">
+            <form class="flexsearch--form" action="results.php" method="post">
+                <div class="flexsearch--input-wrapper">
+                    <input class="flexsearch--input" type="text" name="name" placeholder="compare your confusion">
+                </div>
+                <input class="flexsearch--submit" type="submit" value="&#10140;"/>
+            </form>
+        </div>
+</div>
+</left>
+
+
+  
+    <!--========================================================
+                              HEADER
+    =========================================================-->
+    <header>
+
+        <div class="camera_container">
+            <div id="camera" class="camera_wrap">
+                <div data-thumb="124.jpg" data-src="images/124.jpg">
+                    <div class="camera_caption fadeIn">
+                    </div>
+                </div>
+                <div data-thumb="new1.jpg" data-src="images/new1.jpg">
+                    <div class="camera_caption fadeIn">
+                    </div>
+                </div>
+                <div data-thumb="126.jpg" data-src="images/126.jpg">
+                    <div class="camera_caption fadeIn">
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="brand wow fadeIn">
+                <h1 class="brand_name">
+            
+
+                    <a href="./">
+                    
+                     <p><font color="maroon"> <center>Priceshooter</center></font></p>
+                    
+            
+                     </a>
+                </h1>
+            </div>
+        </div>
+<div class="toggle-menu-container">
+            <nav class="nav">
+                <div class="nav_title"></div>
+
+                <a class="sf-menu-toggle fa fa-bars" href="#"></a>
+                <ul class="sf-menu">
+                    <li class="active">
+                        <a href="./">Home</a>
+                    </li>
+                    <li>
+                        <a href="index-1.html">Deals</a>
+                        <ul>
+                            <li>
+                                <a href="#">Electronics</a>
+                            </li>
+                            <li>
+                                <a href="#">Fashion</a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Men</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Women</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Kids</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">books and Media</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="index-2.html">Beauty and health</a>
+                    </li>
+                    <li>
+                        <a href="index-3.html">More Products</a>
+                    </li>
+                    <li>
+                        <a href="index-4.html">Contacts</a>
+                        <ul>
+                                    <li>
+                                        <a href="#">E-mail: Priceshooter.info@gmail.com</a>
+                                    </li>
+                                    
+                                </ul>
+                    </li>
+                </ul>
+            </nav>            
+        </div>
+
+    </header>
+    <!--========================================================
+                              CONTENT
+    =========================================================-->
+    <main>
+        <section class="well">
+            <div class="container">
+                <h2>we compare things between <br> <img src="images/2.png"> and <img src="images/snapdeal.jpg"></br> the leaders of its industries </h2>
+                <div class="row">
+                    <div class="grid_6">
+                       <div class="img img__border"><div class="lazy-img" style="padding-bottom: 63.0282%;"><img data-src="images/10.jpg" alt=""></div></div>
+                        
+                    </div>
+                    <div class="grid_6">
+                        <div class="img img__border"><div class="lazy-img" style="padding-bottom: 63.0282%;"><img data-src="images/127.jpg" alt=""></div></div>
+                       
+                    </div>
+                </div>
+            </div>            
+            
+            
+        </section>
+        
+    </main>
+
+    <!--========================================================
+                              FOOTER
+    =========================================================-->
+    <footer>
+        <div class="container">
+            <ul class="socials">
+                
+                <li><p>facebook</p><a href="https://www.facebook.com/search/top/?q=sv.co"class="fa fa-facebook">   </a></li>
+                <li><h4>Gmail</h4><a href="Priceshooter.info@gmail.com" class="fa fa-gmail"></a></li>
+                <li><h4>Whatsapp</h4><a href="9618270852" class="fa fa-whatsapp"></a></li>
+            </ul>
+            <div class="copyright">© <span id="copyright-year"></span> |
+                <a href="#">Privacy Policy     svanucet</a>
+            </div>
+        </div>
+    </footer>    
+
+<script src="js/script.js"></script>
+</body>
+</html>
